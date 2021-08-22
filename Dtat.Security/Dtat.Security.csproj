@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>DTAT.Security</PackageId>
+    <Authors>Mr. Dariush Tasdighi</Authors>
+    <Company>DTAT</Company>
+    <Product>DTAT.Security</Product>
+    <Copyright>2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://DTAT.ir</PackageProjectUrl>
+    <PackageIcon>DTAT03.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/DTAT-Framework/DTAT.Security</RepositoryUrl>
+    <PackageTags>DTAT,Security,Hashing,MD5,SHA1,SHA256,SHA384,SHA512,HASH</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="DTAT03.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
